@@ -19,7 +19,7 @@
 
 <body>
     <header class="page-header">
-        <div class="bg">
+        <div class="bg-for-header">
             <nav class="navigator-header">
                 <img id="lol-icon" src="../images/lol-icon.png">
                 <img id="tft-icon" src="../images/tft-icon.png">
@@ -32,8 +32,12 @@
             </nav>
         </div>
         <div class="search-image-container">
+            <div class="bg"></div>
             <img id="background-image" src="../images/background-image.webp">
-            <input class="summoner-input">
+            <span class="label-input-container">
+                <label class="label-summoner-input">Wyszukaj przywoływacza</label>
+                <input class="summoner-input" placeholder="type there ...">
+            </span>
         </div>
     </header>
 </body>
