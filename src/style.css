@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+    background-color: #D9BC9A;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.navigator-header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.list-of-things {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 5rem;
+    list-style-type: none;
+}
+
+.element-of-list {
+    display: inline-block;
+    color: wheat;
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#background-image {
+    width: 60%;
+    height: auto;
+    opacity: 0.6;
+    border-radius: 10%;
+}
+
+#lol-icon {
+    width: 4rem;
+    height: auto;
+}
+
+#tft-icon {
+    width: 4rem;
+    height: auto;
+}
+
+.bg {
+    background-color: #38184C;
+    height: 6rem;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 3%;
+}
+
+.search-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.summoner-input {
+    position: absolute;
+    color: aliceblue;
+    height: 3rem;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 3%;
+    font-family: "Lato", "sans-serif";
+    text-align: center;
+    background-color: #81827499;
+}
